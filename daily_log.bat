@@ -1,7 +1,7 @@
 @echo off
 cd /d "C:\Users\FASIL\Desktop\dailyytaskss"
-echo Auto commit at %date% %time% >> logs.txt
+echo Database Updated at %date% %time% >> DatabaseUpdates.txt
 git add .
-git commit -m "Log Done on %date% %time%"
+git commit -m "DataBase Updated on %date% %time%"
 git push origin main
 exit
